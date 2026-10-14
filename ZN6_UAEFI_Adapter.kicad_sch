@@ -6305,10 +6305,6 @@
 		(uuid "16532491-24e5-4e01-8956-3a2482725113")
 	)
 	(no_connect
-		(at 219.71 52.07)
-		(uuid "195fb7f6-ead1-4c00-ac7a-63cd378a7bdc")
-	)
-	(no_connect
 		(at 144.78 50.8)
 		(uuid "1ab1c549-b8f6-4d55-8122-d8f3015c21c8")
 	)
@@ -6377,8 +6373,12 @@
 		(uuid "578ca43a-f1f1-4e80-ac61-d40d8c730cd0")
 	)
 	(no_connect
-		(at 82.55 59.69)
-		(uuid "57c01a61-f241-41f4-a198-2d0076453ac4")
+		(at 275.59 114.3)
+		(uuid "5ee155fd-6329-4b5f-b8b4-784b8a333a65")
+	)
+	(no_connect
+		(at 275.59 119.38)
+		(uuid "6468da6f-a9ab-4919-afee-83ea26bd8e71")
 	)
 	(no_connect
 		(at 275.59 111.76)
@@ -6401,12 +6401,12 @@
 		(uuid "79cb502f-c66e-4870-b59e-9a90873d0930")
 	)
 	(no_connect
-		(at 275.59 101.6)
-		(uuid "89b6e890-882e-4cb4-98b2-249629f07888")
+		(at 144.78 118.11)
+		(uuid "7c747814-0e09-47fb-9b24-d4e49a764f57")
 	)
 	(no_connect
-		(at 144.78 118.11)
-		(uuid "89d86ab2-3255-44f8-82b9-307a40c59c5b")
+		(at 275.59 101.6)
+		(uuid "89b6e890-882e-4cb4-98b2-249629f07888")
 	)
 	(no_connect
 		(at 219.71 82.55)
@@ -6417,6 +6417,10 @@
 		(uuid "9b8bc70f-e054-4e97-89cd-768822e514eb")
 	)
 	(no_connect
+		(at 340.36 67.31)
+		(uuid "9bf456c3-b3b4-4118-b619-fcf26aa20b1e")
+	)
+	(no_connect
 		(at 82.55 123.19)
 		(uuid "9f379aed-15ee-4cc8-a789-ad33b8f0f06f")
 	)
@@ -6425,8 +6429,16 @@
 		(uuid "a122db59-9506-448f-9ca4-0c3b2e78ae45")
 	)
 	(no_connect
+		(at 275.59 154.94)
+		(uuid "b65f2d21-85c6-4407-b31b-4a9810f59b57")
+	)
+	(no_connect
 		(at 144.78 120.65)
-		(uuid "ac8b50b0-0bac-4a39-b673-9a97258c6918")
+		(uuid "b6b4409a-5f62-4014-9c23-8878b5e34da8")
+	)
+	(no_connect
+		(at 82.55 49.53)
+		(uuid "b979589f-6eba-4da8-abbb-6e8665ec9ca0")
 	)
 	(no_connect
 		(at 57.15 49.53)
@@ -6437,16 +6449,12 @@
 		(uuid "bf530fe4-044e-4b08-8f8e-c1b525a03a97")
 	)
 	(no_connect
-		(at 82.55 74.93)
-		(uuid "bf844bd3-4bc4-47dc-8d81-bac7650080e4")
+		(at 57.15 133.35)
+		(uuid "c3632722-e677-48eb-a006-22f2807c21b3")
 	)
 	(no_connect
 		(at 57.15 130.81)
 		(uuid "ce6796c8-37a1-482d-82db-25d9310fccfd")
-	)
-	(no_connect
-		(at 219.71 49.53)
-		(uuid "ce99200e-29f4-465c-86ce-4b0f2c1e2a16")
 	)
 	(no_connect
 		(at 340.36 107.95)
@@ -6479,6 +6487,10 @@
 	(no_connect
 		(at 275.59 109.22)
 		(uuid "f3b6cd92-bdb9-4c29-97d0-7166e89e1650")
+	)
+	(no_connect
+		(at 275.59 116.84)
+		(uuid "f64de65a-02a2-46fa-9f9b-d9abb1235e4b")
 	)
 	(no_connect
 		(at 57.15 135.89)
@@ -7094,6 +7106,16 @@
 		)
 		(uuid "f74ccd18-67af-480c-9b86-b8038517956a")
 	)
+	(label "VVT Inlet Sensor RH"
+		(at 219.71 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0068c81b-0efb-4c10-a166-5bfd716b4f0f")
+	)
 	(label "EFI_RELAYS"
 		(at 57.15 128.27 180)
 		(effects
@@ -7134,8 +7156,18 @@
 		)
 		(uuid "086fe1c5-2f27-4dcd-ada0-56863301362e")
 	)
-	(label "VVT Inlet Bank 1"
-		(at 119.38 138.43 180)
+	(label "VVT Inlet Sensor LH"
+		(at 275.59 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08819054-11f1-417f-b3bd-7cbff538c257")
+	)
+	(label "VVT Inlet Solenoid RH"
+		(at 119.38 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7144,17 +7176,7 @@
 		)
 		(uuid "09e1426d-1ead-461d-ba11-ac4c637d90a2")
 	)
-	(label "OUT_LS9"
-		(at 340.36 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a49d587-8f61-447f-9ba3-b8333fc9deb0")
-	)
-	(label "GNDA"
+	(label "GND"
 		(at 219.71 92.71 180)
 		(effects
 			(font
@@ -7184,23 +7206,13 @@
 		)
 		(uuid "0bb0a8ec-2cd0-4064-90f4-0b68bb67ded5")
 	)
-	(label "IN_TPS2"
-		(at 144.78 97.79 0)
+	(label "IN_IAT"
+		(at 144.78 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
-		)
-		(uuid "0c7c3216-b725-4cec-b570-f5d7e1ac217b")
-	)
-	(label "IN_IAT"
-		(at 57.15 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
 		)
 		(uuid "0cb6738f-fce9-415c-b5b6-37b6b324afd0")
 	)
@@ -7224,16 +7236,6 @@
 		)
 		(uuid "0d14a399-8da2-4ecf-85b3-06e8c7df5ec1")
 	)
-	(label "OUT_LS10"
-		(at 340.36 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0daf1ef6-3a9f-418b-b514-e8c0851d8358")
-	)
 	(label "IN_FLEX"
 		(at 340.36 113.03 180)
 		(effects
@@ -7243,6 +7245,16 @@
 			(justify right bottom)
 		)
 		(uuid "0f8e02cb-5dad-439c-a462-2d622c10ad96")
+	)
+	(label "GND"
+		(at 119.38 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fc5f915-2fc6-40dd-af80-9bb4ec0aee1d")
 	)
 	(label "OUT_INJ2"
 		(at 219.71 67.31 180)
@@ -7294,6 +7306,16 @@
 		)
 		(uuid "16de99b7-fe54-44f6-b15d-b5d48c39728c")
 	)
+	(label "VVT Inlet Sensor LH"
+		(at 119.38 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "171deca5-a409-4000-bc1b-c082db7519b1")
+	)
 	(label "ETCS_RELAY"
 		(at 201.93 97.79 180)
 		(effects
@@ -7324,26 +7346,6 @@
 		)
 		(uuid "1df3db2a-707f-4187-a2e5-31361c2cb57e")
 	)
-	(label "VVT Inlet Bank 1"
-		(at 340.36 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1fc1c3fb-dced-48b5-8e56-cbf4a9e7c80f")
-	)
-	(label "AC"
-		(at 82.55 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21d9e4e9-92ed-408e-884e-d0e47bc509a1")
-	)
 	(label "+5VP"
 		(at 340.36 115.57 180)
 		(effects
@@ -7354,7 +7356,7 @@
 		)
 		(uuid "22244594-064c-430b-ae74-76ff7bbafcc3")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 275.59 142.24 180)
 		(effects
 			(font
@@ -7374,7 +7376,7 @@
 		)
 		(uuid "23e40d95-d092-4ad9-938a-000931ba35da")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 82.55 125.73 0)
 		(effects
 			(font
@@ -7393,16 +7395,6 @@
 			(justify right bottom)
 		)
 		(uuid "2617814f-3247-4497-b239-20081da8901f")
-	)
-	(label "FUEL_P2"
-		(at 119.38 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26416888-163b-487a-bd22-5d8dbeee9136")
 	)
 	(label "+5VP"
 		(at 275.59 63.5 180)
@@ -7444,16 +7436,6 @@
 		)
 		(uuid "285c4c83-6bce-424b-81a6-ebb2f8351f49")
 	)
-	(label "STARTER"
-		(at 82.55 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b5e3047-f022-43c4-bf1b-1fe234344c20")
-	)
 	(label "NSW"
 		(at 82.55 36.83 0)
 		(effects
@@ -7484,7 +7466,7 @@
 		)
 		(uuid "2c9388e2-831f-44a4-abb4-0a4c04deebbb")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 340.36 85.09 180)
 		(effects
 			(font
@@ -7504,25 +7486,25 @@
 		)
 		(uuid "303eb046-6c2c-4110-a029-a2bb2c904f4a")
 	)
-	(label "OUT_INJ6"
-		(at 144.78 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "311a9560-cadc-40c3-b6c8-34c6978cbf49")
-	)
-	(label "ST1-"
-		(at 57.15 41.91 180)
+	(label "VVT Inlet Solenoid LH"
+		(at 119.38 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "32234476-acf7-43d0-ada8-07aa4c569da3")
+		(uuid "30951765-0dd8-4507-bf56-483530e1f086")
+	)
+	(label "OUT_INJ6"
+		(at 119.38 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "311a9560-cadc-40c3-b6c8-34c6978cbf49")
 	)
 	(label "5_WBO1_Rtrim"
 		(at 219.71 36.83 180)
@@ -7564,57 +7546,87 @@
 		)
 		(uuid "394a6972-82b8-43e0-b70f-860ac848683c")
 	)
-	(label "6_WBO1_Un"
-		(at 119.38 53.34 180)
+	(label "Oil_Pressure_Dash"
+		(at 340.36 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "3b086f61-ca86-46df-a1e6-8fe788445d84")
+	)
+	(label "6_WBO1_Un"
+		(at 144.78 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "3d0e4078-d2ab-48c9-8723-416541a78b89")
 	)
-	(label "BLOWER_HB"
-		(at 82.55 46.99 0)
+	(label "GND"
+		(at 119.38 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d503edb-f842-46af-8757-aa78720d7d6d")
+	)
+	(label "Oil_Pressure_Dash"
+		(at 82.55 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3d3eadd1-d02d-408d-b934-7307ac7bf98a")
+		(uuid "3e46d34f-b4ed-4064-994a-0b56fbc94c74")
 	)
 	(label "IN_KNOCK1_RAW"
-		(at 144.78 60.96 0)
+		(at 119.38 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3fe305c9-8aed-4776-808f-81bd5da8ae77")
 	)
-	(label "IN_BUTTON1"
-		(at 340.36 92.71 180)
+	(label "PURGE_VALVE"
+		(at 340.36 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "45b6d8b4-64c5-4b5f-afcb-a97cbd6b5b26")
+		(uuid "414be702-7f44-4b2d-8083-e1ff00036ef4")
 	)
-	(label "ACP"
-		(at 57.15 54.61 180)
+	(label "GND"
+		(at 144.78 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42126234-2c60-40cb-a4fe-20b0a32c4d99")
+	)
+	(label "GND"
+		(at 119.38 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "48b686b9-aa74-4db5-bc80-aafcc6a25674")
+		(uuid "47f97a16-27dc-45b1-bec7-421be574a724")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 340.36 39.37 180)
 		(effects
 			(font
@@ -7624,7 +7636,7 @@
 		)
 		(uuid "49c6273f-d9ec-4298-8a52-cd31c02024fb")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 275.59 50.8 180)
 		(effects
 			(font
@@ -7685,12 +7697,12 @@
 		(uuid "52be620d-edc9-46e8-a381-2a681a733cb8")
 	)
 	(label "+5VP"
-		(at 82.55 107.95 0)
+		(at 119.38 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "52d8d705-60a1-465b-8521-b54297a50570")
 	)
@@ -7703,26 +7715,6 @@
 			(justify right bottom)
 		)
 		(uuid "539f0543-058f-4382-bfc3-4de222a95bcd")
-	)
-	(label "IJF1"
-		(at 119.38 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5404e370-fc69-401e-929b-bfc98b9dcf5d")
-	)
-	(label "IN_FLEX"
-		(at 119.38 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54f163ee-020a-4bb4-a33f-2a620ab3a6ec")
 	)
 	(label "+3.3VA"
 		(at 212.09 232.41 180)
@@ -7764,7 +7756,7 @@
 		)
 		(uuid "5a116280-2b6d-4789-b3c0-c4b671ab0cd0")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 82.55 128.27 0)
 		(effects
 			(font
@@ -7784,16 +7776,6 @@
 		)
 		(uuid "5a7b110c-3a1a-4610-8756-b8be11497ba1")
 	)
-	(label "TACH"
-		(at 57.15 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5eb33207-c50c-4b8f-87c3-4fa358034cd6")
-	)
 	(label "+5VP"
 		(at 275.59 43.18 180)
 		(effects
@@ -7804,18 +7786,8 @@
 		)
 		(uuid "60f9b758-beef-4666-98e3-f406360aec79")
 	)
-	(label "GNDA"
-		(at 340.36 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "625b8b2c-044d-4239-aba9-237f77c277c2")
-	)
 	(label "OUT_DC2-"
-		(at 119.38 110.49 180)
+		(at 119.38 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7854,16 +7826,6 @@
 		)
 		(uuid "65ca7981-c8b9-48b0-a06e-82b25bf5074f")
 	)
-	(label "FPD"
-		(at 144.78 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66aeb4af-73c9-44b1-987e-97b316645175")
-	)
 	(label "OIL_PRESSURE"
 		(at 148.59 237.49 180)
 		(effects
@@ -7873,6 +7835,16 @@
 			(justify right bottom)
 		)
 		(uuid "66bfc1e1-5120-409f-aad8-870f41199cca")
+	)
+	(label "VVT Inlet Sensor RH"
+		(at 144.78 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d6b589-067f-48df-9a8a-34f80cab1cb8")
 	)
 	(label "+5VP"
 		(at 340.36 36.83 180)
@@ -7894,16 +7866,6 @@
 		)
 		(uuid "68fd47a0-b0bb-4986-8945-aaeca9715850")
 	)
-	(label "SHIELD"
-		(at 144.78 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69a53ecd-d42d-4c12-84fd-5ba59c8ebe02")
-	)
 	(label "OUT_INJ1"
 		(at 119.38 125.73 180)
 		(effects
@@ -7915,7 +7877,7 @@
 		(uuid "6ba605d0-19e7-4d92-825c-3b869c875e75")
 	)
 	(label "FUEL_PRESSURE"
-		(at 82.55 69.85 0)
+		(at 144.78 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7934,23 +7896,13 @@
 		)
 		(uuid "6cfecd53-dd90-4761-8e46-0c396efbfba6")
 	)
-	(label "GND"
-		(at 119.38 105.41 180)
+	(label "OIL_PRESSURE"
+		(at 119.38 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "70967657-2b1a-4c90-9cc8-a268b28d9574")
-	)
-	(label "OIL_PRESSURE"
-		(at 144.78 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "70df4e1b-c1c0-4d18-bb83-a60b23604139")
 	)
@@ -7974,15 +7926,15 @@
 		)
 		(uuid "7345053f-e322-467a-955a-f10f21320b94")
 	)
-	(label "+5VP"
-		(at 144.78 76.2 0)
+	(label "EGT1+"
+		(at 144.78 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "74a47c09-b28d-45c0-8401-97ebdc5473f6")
+		(uuid "7431d837-62f1-4b51-9ccf-37e363385837")
 	)
 	(label "GND"
 		(at 340.36 110.49 180)
@@ -7994,28 +7946,18 @@
 		)
 		(uuid "757e4000-5fd8-4b17-8b19-5bf52690cc62")
 	)
-	(label "VVT Inlet Bank 2"
-		(at 340.36 72.39 180)
+	(label "+5VP"
+		(at 119.38 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7599da1e-27b2-4f52-b975-a897f562c763")
-	)
-	(label "+5VP"
-		(at 82.55 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "76ab9681-7e2c-483f-a8b5-ec3ab6363589")
 	)
 	(label "3_WBO1_Heater"
-		(at 144.78 43.18 0)
+		(at 144.78 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8025,7 +7967,7 @@
 		(uuid "777cef9b-8b3e-4776-9774-3ef777959139")
 	)
 	(label "5_WBO1_Rtrim"
-		(at 119.38 45.72 180)
+		(at 119.38 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8035,16 +7977,16 @@
 		(uuid "7880bf2c-f93e-4418-948d-4e441e77a4c6")
 	)
 	(label "OUT_DC1-"
-		(at 119.38 100.33 180)
+		(at 144.78 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7abee753-2708-4e09-879e-3e6bb6b69e86")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 275.59 81.28 180)
 		(effects
 			(font
@@ -8053,16 +7995,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e0dc77a-0c84-43df-a136-ea3136617620")
-	)
-	(label "SHIELD"
-		(at 82.55 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f8e2140-a490-40e5-88fe-c98031347487")
 	)
 	(label "IN_PPS2"
 		(at 340.36 80.01 180)
@@ -8075,7 +8007,7 @@
 		(uuid "80bf6031-7691-4515-8949-ec7cdc5c8fdb")
 	)
 	(label "OUT_IGN5"
-		(at 144.78 115.57 0)
+		(at 144.78 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8084,23 +8016,13 @@
 		)
 		(uuid "8306f7a0-b395-4d74-ba20-33dccfa6cc4a")
 	)
-	(label "+12V"
-		(at 119.38 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "833f92cb-c423-4a60-9ad9-6b74bb0123a4")
-	)
 	(label "OUT_INJ2"
-		(at 119.38 128.27 180)
+		(at 144.78 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "84066d52-1a22-4f8b-93f0-326a7e3cc2ff")
 	)
@@ -8134,7 +8056,17 @@
 		)
 		(uuid "851cb86f-d4a2-43ca-9136-e2fe7a3a86c9")
 	)
-	(label "GNDA"
+	(label "IN_FLEX"
+		(at 82.55 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85c339c7-6b8c-4709-ab49-b0b84c72c122")
+	)
+	(label "GND"
 		(at 275.59 66.04 180)
 		(effects
 			(font
@@ -8164,26 +8096,6 @@
 		)
 		(uuid "879ada4e-464e-4194-979f-8af814f7739d")
 	)
-	(label "STSW2+1"
-		(at 57.15 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87eedb94-eafe-45e6-b37a-a1185987b3c7")
-	)
-	(label "STAR"
-		(at 82.55 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "883c4700-eaac-428d-bf79-345c6098d9c1")
-	)
 	(label "OUT_DC1-"
 		(at 275.59 33.02 180)
 		(effects
@@ -8193,16 +8105,6 @@
 			(justify right bottom)
 		)
 		(uuid "88b794a2-d962-4ef3-a660-b3c4e407294b")
-	)
-	(label "IN_HALL2"
-		(at 275.59 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c74cd61-4f2a-458f-b339-33184ad06d8f")
 	)
 	(label "OUT_IGN2"
 		(at 219.71 59.69 180)
@@ -8234,13 +8136,23 @@
 		)
 		(uuid "933ce5b2-3095-490d-a078-d649c685a1b8")
 	)
-	(label "OUT_INJ3"
-		(at 119.38 130.81 180)
+	(label "GND"
+		(at 82.55 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "935cb478-819d-4cff-9cc2-aebc2fa5ee1d")
+	)
+	(label "OUT_INJ3"
+		(at 144.78 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "9688f8d3-e57f-4350-886d-a7a40549255a")
 	)
@@ -8264,15 +8176,15 @@
 		)
 		(uuid "97370409-9426-4436-bf90-99816c06558e")
 	)
-	(label "A{slash}C Clutch"
-		(at 144.78 78.74 0)
+	(label "IN_TPS2"
+		(at 144.78 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9cbc1ff3-585e-418d-a6ca-2462dbb57bd8")
+		(uuid "9d3ee4a0-2333-44c0-8000-9ee6cb76b25d")
 	)
 	(label "IN_TPS2"
 		(at 275.59 40.64 180)
@@ -8295,7 +8207,7 @@
 		(uuid "9fbf83c5-4002-4fd8-9578-7fa613c0a90a")
 	)
 	(label "1_WBO1_Ip"
-		(at 144.78 35.56 0)
+		(at 144.78 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8305,6 +8217,16 @@
 		(uuid "a1e98ad2-45ca-4ca4-a9be-7bd22a3e2272")
 	)
 	(label "OUT_DC1+"
+		(at 144.78 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2527a2e-14fd-4c4b-9b27-d7a1eeae73d5")
+	)
+	(label "OUT_DC2+"
 		(at 119.38 97.79 180)
 		(effects
 			(font
@@ -8312,37 +8234,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a2527a2e-14fd-4c4b-9b27-d7a1eeae73d5")
-	)
-	(label "OUT_DC2+"
-		(at 119.38 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
 		(uuid "a27510cf-bec9-49c8-83b1-1c7c9e2fb370")
-	)
-	(label "IN_HALL1"
-		(at 144.78 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2d9bdab-ae58-422d-8d7e-dec62ea9e60b")
-	)
-	(label "GND"
-		(at 119.38 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2e93134-8910-4208-9056-af13500a1ba1")
 	)
 	(label "FP_CONTROL"
 		(at 219.71 102.87 180)
@@ -8363,16 +8255,6 @@
 			(justify right bottom)
 		)
 		(uuid "a72d7dbd-9786-4a9f-9bc6-318098fef4da")
-	)
-	(label "IN_BUTTON2"
-		(at 340.36 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa1b6fd4-0372-4b71-bf58-d8be218a2321")
 	)
 	(label "+12V_RAW_FROM_ETCS"
 		(at 219.71 46.99 180)
@@ -8405,7 +8287,7 @@
 		(uuid "ad00c801-80d8-4735-8bca-2f792eb577f5")
 	)
 	(label "CLUTCH_SW"
-		(at 275.59 154.94 180)
+		(at 340.36 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8413,16 +8295,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad3b1996-5c3b-4f33-8c24-a71a38fd0d4e")
-	)
-	(label "WFSE"
-		(at 119.38 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af019bea-1b94-4b5e-a150-1857b02a8ce4")
 	)
 	(label "CRUISE_CCS"
 		(at 82.55 72.39 0)
@@ -8433,26 +8305,6 @@
 			(justify left bottom)
 		)
 		(uuid "b11b3efd-7b10-4088-aa49-1d0e1cafb678")
-	)
-	(label "FUEL_P1"
-		(at 119.38 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b13ae741-2c7b-47c1-aa0a-eab56ef55bd2")
-	)
-	(label "FPF"
-		(at 119.38 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b215c653-8503-4267-95b2-efc8f61c1cee")
 	)
 	(label "IN_CLT"
 		(at 275.59 48.26 180)
@@ -8485,32 +8337,22 @@
 		(uuid "b68890d9-6ed3-4435-bdfe-716735b8ac55")
 	)
 	(label "OUT_IGN2"
-		(at 144.78 130.81 0)
+		(at 119.38 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b7a0640e-11f4-4cfb-bc77-8dfd980ac183")
 	)
-	(label "GNDA"
-		(at 144.78 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7f42987-ead2-419c-b05c-3ebfe7e734f4")
-	)
 	(label "2_WBO1_Vm"
-		(at 144.78 38.1 0)
+		(at 119.38 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b91f116e-7601-4db9-8c9d-a64c9a0b243c")
 	)
@@ -8524,15 +8366,15 @@
 		)
 		(uuid "bb0a243d-758f-4cab-be28-b27c8f31e074")
 	)
-	(label "IN_TPS1"
-		(at 144.78 123.19 0)
+	(label "EGT1-"
+		(at 144.78 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bf3abe6f-5a92-4e90-a889-02d98466e1c0")
+		(uuid "bf98d6aa-5f33-4990-a379-82e6af4ac999")
 	)
 	(label "ETCS_RELAY"
 		(at 57.15 138.43 180)
@@ -8543,16 +8385,6 @@
 			(justify right bottom)
 		)
 		(uuid "c0322f64-da33-46ce-90bc-7230d7707c42")
-	)
-	(label "OUT_LS6"
-		(at 340.36 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0da0869-5014-4031-8272-e8f8ff1576dc")
 	)
 	(label "GND"
 		(at 275.59 96.52 180)
@@ -8594,35 +8426,15 @@
 		)
 		(uuid "c4c99637-8b2b-45e8-9b50-7bdad293a251")
 	)
-	(label "IN_HALL1"
-		(at 219.71 87.63 180)
+	(label "OUT_INJ4"
+		(at 119.38 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "c6a3c34c-e9da-46c1-ad0f-b8a305aa25f1")
-	)
-	(label "OUT_INJ4"
-		(at 144.78 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "c6b719ab-1d04-4ab9-887d-bda924bce7f0")
-	)
-	(label "IN_HALL2"
-		(at 119.38 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6beaacd-f073-45a0-9cad-bff5977bd12d")
 	)
 	(label "IN_MAP"
 		(at 275.59 68.58 180)
@@ -8635,16 +8447,16 @@
 		(uuid "c6cf7ede-511c-4ba5-9a83-79916170f4ba")
 	)
 	(label "OUT_IGN6"
-		(at 144.78 105.41 0)
+		(at 119.38 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c780d389-a373-4a64-bbdc-9927c35989de")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 275.59 160.02 180)
 		(effects
 			(font
@@ -8663,16 +8475,6 @@
 			(justify right bottom)
 		)
 		(uuid "cb83f0fc-f149-46e4-bf6b-120ca9ea740f")
-	)
-	(label "+12V_RAW_FROM_ETCS"
-		(at 275.59 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc4529b2-9187-4a9e-9f4f-525467c69d81")
 	)
 	(label "FUEL_PRESSURE"
 		(at 148.59 242.57 180)
@@ -8694,6 +8496,16 @@
 		)
 		(uuid "cfb3fcb8-3f90-4590-a80e-dd21461f5eb5")
 	)
+	(label "GND"
+		(at 144.78 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d02422e9-4bf4-4205-b2e1-11753c6abdc0")
+	)
 	(label "FP_ENABLE"
 		(at 201.93 100.33 180)
 		(effects
@@ -8703,26 +8515,6 @@
 			(justify right bottom)
 		)
 		(uuid "d0504ff7-02ba-48f3-96e1-594db37131a5")
-	)
-	(label "STSW2+2"
-		(at 82.55 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d133401f-a232-4e70-8806-763b85a7382e")
-	)
-	(label "VVT Inlet Bank 2"
-		(at 119.38 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1dfdb60-c78d-46a3-918b-02079be2ac04")
 	)
 	(label "CAN1-"
 		(at 82.55 41.91 0)
@@ -8765,12 +8557,12 @@
 		(uuid "d5b01587-ce0a-4b4d-86d4-651f4342de6b")
 	)
 	(label "OUT_IGN1"
-		(at 119.38 115.57 180)
+		(at 144.78 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d5c8e52e-5624-4f78-9972-e66a4dc8f46e")
 	)
@@ -8785,12 +8577,12 @@
 		(uuid "d675da38-5190-4f56-a463-a39d7bf21e24")
 	)
 	(label "IN_KNOCK2_RAW"
-		(at 119.38 76.2 180)
+		(at 144.78 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d9ba3310-233f-4b93-b5a7-f7c634bad702")
 	)
@@ -8804,35 +8596,25 @@
 		)
 		(uuid "da10f69c-2f0e-44d3-a288-f31509f6e8bd")
 	)
-	(label "OUT_INJ5"
-		(at 144.78 110.49 0)
+	(label "VVT Inlet Solenoid LH"
+		(at 340.36 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "da251e29-6b6e-4770-9f2e-f70f0e3d4d29")
+	)
+	(label "OUT_INJ5"
+		(at 119.38 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "daefb25a-023d-4f27-9dcf-3a391bae859f")
-	)
-	(label "IJF2"
-		(at 144.78 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db9a4288-2513-4b30-b64f-c39b8c6a590d")
-	)
-	(label "IMO"
-		(at 82.55 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbd9607f-f831-4bf6-b84f-22388a77270d")
 	)
 	(label "OUT_INJ4"
 		(at 275.59 132.08 180)
@@ -8844,7 +8626,7 @@
 		)
 		(uuid "ddcc947b-84d5-4166-b064-8be683333681")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 275.59 45.72 180)
 		(effects
 			(font
@@ -8874,17 +8656,7 @@
 		)
 		(uuid "df930443-813c-4ab0-89ee-4d1e9ac44209")
 	)
-	(label "LIN_ALTERNATOR"
-		(at 82.55 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfae3efb-99f9-45be-902d-98662d181c31")
-	)
-	(label "GNDA"
+	(label "GND"
 		(at 219.71 110.49 180)
 		(effects
 			(font
@@ -8894,7 +8666,7 @@
 		)
 		(uuid "dfdbe4e6-ee85-4510-92cb-4d17c84f8729")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 82.55 52.07 0)
 		(effects
 			(font
@@ -8914,18 +8686,18 @@
 		)
 		(uuid "e0d4c236-1867-4a21-bee9-9604ff68514b")
 	)
-	(label "+5VP"
-		(at 144.78 100.33 0)
+	(label "NSW"
+		(at 340.36 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e2525ac9-9342-4027-9bfb-600140a848ef")
+		(uuid "e108c215-d065-45d1-9d21-d1f218f741c4")
 	)
-	(label "EGT2-"
-		(at 275.59 116.84 180)
+	(label "EGT1-"
+		(at 219.71 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8933,6 +8705,16 @@
 			(justify right bottom)
 		)
 		(uuid "e340ffd5-fa1b-49f5-a6b8-7956284426ca")
+	)
+	(label "IN_TPS1"
+		(at 144.78 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4f5ac18-0d50-46ed-b279-16e4a7fb1cd8")
 	)
 	(label "CRANK_VR-"
 		(at 275.59 147.32 180)
@@ -8944,8 +8726,8 @@
 		)
 		(uuid "e8334f64-89cd-4bca-ad88-7f17e8537e3a")
 	)
-	(label "EGT2+"
-		(at 275.59 119.38 180)
+	(label "EGT1+"
+		(at 219.71 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8965,7 +8747,7 @@
 		(uuid "ebf6466d-4156-404a-bc77-b45c2b89509a")
 	)
 	(label "OUT_IGN3"
-		(at 144.78 133.35 0)
+		(at 144.78 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8984,7 +8766,7 @@
 		)
 		(uuid "f0406107-e2bc-4608-8968-56df8ac18187")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 219.71 74.93 180)
 		(effects
 			(font
@@ -9024,7 +8806,7 @@
 		)
 		(uuid "f5e490ec-60b7-43ab-aeaa-ff100a64535b")
 	)
-	(label "GNDA"
+	(label "GND"
 		(at 275.59 73.66 180)
 		(effects
 			(font
@@ -9054,6 +8836,16 @@
 		)
 		(uuid "fa13ec8f-e5f0-4c35-a5bc-0065e38c5270")
 	)
+	(label "GND"
+		(at 340.36 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa21c83e-0e05-4023-bc22-021a0a01ccde")
+	)
 	(label "1_WBO1_Ip"
 		(at 219.71 39.37 180)
 		(effects
@@ -9063,6 +8855,16 @@
 			(justify right bottom)
 		)
 		(uuid "fc1a5957-c221-441c-9c35-90171521dc0b")
+	)
+	(label "VVT Inlet Solenoid RH"
+		(at 340.36 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe4761ce-7a40-499b-a0ff-a5b5ec040fea")
 	)
 	(label "+5VA"
 		(at 340.36 46.99 180)
@@ -9075,7 +8877,7 @@
 		(uuid "fedabdf9-6ad2-45f1-ac6e-8482086b3715")
 	)
 	(label "OUT_IGN4"
-		(at 119.38 120.65 180)
+		(at 119.38 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9117,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 71.12 253.0531 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9263,7 +9065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "163d8512-a640-42db-ada2-5b635fde86c0")
-		(property "Reference" "J1"
+		(property "Reference" "AC1"
 			(at 69.85 91.1055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +9684,7 @@
 		(instances
 			(project "ZN6_UAEFI_Adapter"
 				(path "/99c79640-586f-4896-b497-254a587da1b3"
-					(reference "J1")
+					(reference "AC1")
 					(unit 3)
 				)
 			)
@@ -11308,7 +11110,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 212.09 246.7031 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11457,7 +11259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abe46e8-c90b-4e4f-8ab7-91f75cf437ba")
-		(property "Reference" "J1"
+		(property "Reference" "AC1"
 			(at 132.08 28.8755 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12076,7 +11878,7 @@
 		(instances
 			(project "ZN6_UAEFI_Adapter"
 				(path "/99c79640-586f-4896-b497-254a587da1b3"
-					(reference "J1")
+					(reference "AC1")
 					(unit 2)
 				)
 			)
@@ -12595,7 +12397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0eacc3e-f2e2-4359-99a2-54915639dd4c")
-		(property "Reference" "J1"
+		(property "Reference" "AC1"
 			(at 69.85 30.1455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13214,7 +13016,7 @@
 		(instances
 			(project "ZN6_UAEFI_Adapter"
 				(path "/99c79640-586f-4896-b497-254a587da1b3"
-					(reference "J1")
+					(reference "AC1")
 					(unit 1)
 				)
 			)
@@ -13478,7 +13280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6c01f8a-897c-43a7-9f5b-627659ed68c7")
-		(property "Reference" "J1"
+		(property "Reference" "AC1"
 			(at 132.08 91.1055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +13899,7 @@
 		(instances
 			(project "ZN6_UAEFI_Adapter"
 				(path "/99c79640-586f-4896-b497-254a587da1b3"
-					(reference "J1")
+					(reference "AC1")
 					(unit 4)
 				)
 			)
@@ -14126,7 +13928,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 189.23 259.4031 0)
 			(show_name no)
 			(do_not_autoplace no)
