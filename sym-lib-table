@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ZN6_Adapter") (type "KiCad") (uri "${KIPRJMOD}/ZN6_Adapter.kicad_sym") (options "") (descr ""))
+)
