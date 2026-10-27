@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.6
         }
       },
       "diff_pair_dimensions": [],
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ZN6_UAEFI_Adapter.kicad_pro",
+    "filename": "ZN6_ATLAS_Adapter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -511,6 +511,15 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -518,7 +527,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "SPI",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*U6*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -749,6 +767,12 @@
           "label": "UNIT",
           "name": "UNIT",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -794,18 +818,26 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ZN6_UAEFI_Adapter.kicad_sch",
-        "name": "Root",
+        "filename": "ZN6_ATLAS_Adapter.kicad_sch",
+        "name": "ZN6_ATLAS_Adapter",
         "uuid": "99c79640-586f-4896-b497-254a587da1b3"
       }
     ],
-    "used_designators": "#PWR1-25,hw\\-uaBrain1-2,D1-13,AC2,J1-14,R1-23,U1-3,C1-15,TP1,Q1,H1-4",
+    "used_designators": "#PWR1-25,#PWR27-28,#PWR31-33,#PWR52-102,#PWR221-224,#PWR1001-1004,hw\\-uaBrain1-2,D1-13,AC2,J1-14,R1-23,U1-4,U6,U25,U1001-1002,C1-41,TP1,Q1,H1-4,M1-2,F4-5,P15-18,RN5-6",
     "variants": []
   },
   "sheets": [
     [
       "99c79640-586f-4896-b497-254a587da1b3",
-      "Root"
+      "ZN6_ATLAS_Adapter"
+    ],
+    [
+      "076268a1-e7f3-4b9c-a30f-49114e246f13",
+      "DC Driver 1"
+    ],
+    [
+      "faf84b46-3684-4073-ba0f-681e7e0f8ded",
+      "DC Driver 2"
     ]
   ],
   "text_variables": {},
