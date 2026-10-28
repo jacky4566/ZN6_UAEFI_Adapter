@@ -44,13 +44,13 @@ For example, `B28` is pad 31 + 28 = **59**. The factory function of every pin is
 
 The following pins are hard-wired on the board.
 
-### ECU side (AC1 / AC2)
-
 | ECU pin | Pad | Factory function | Board net | Goes to |
 |---|---|---|---|---|
-| A4 | 4 | EC (ECU ground) | `GND` | Ground |
+| A1 | 1 | 12V From Main Relay | `12V_MR` | ATLAS 12V_MR |
+| A2 | 2 | 12V Constant | `12V_Constant` | ATLAS 12V_Constant |
 | A18 | 18 | CAN Lo | `CAN1-` | ATLAS CAN1 L |
 | A19 | 19 | CAN Hi | `CAN1+` | ATLAS CAN1 H |
+| A27 | 27 | 12V From IGN Switch | `12V_SW` | ATLAS 12V_IGN |
 | A28 | 28 | Sensor ground (shield) | `GND` | Ground |
 | B1 | 32 | Power ground | `GND` | Ground |
 | B2 | 33 | Power ground | `GND` | Ground |
@@ -58,6 +58,7 @@ The following pins are hard-wired on the board.
 | B29 | 60 | Sensor ground (shield) | `GND` | Ground |
 | B30 | 61 | Shield | `GND` | Ground |
 | B35 | 66 | Sensor ground (shield) | `GND` | Ground |
+| C7 | 73 | ETCS Relay Output | `ETCS` | ETB Driver chips |
 | D3 | 104 | Power ground | `GND` | Ground |
 | D4 | 105 | Power ground | `GND` | Ground |
 
